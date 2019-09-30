@@ -1,0 +1,338 @@
+body {
+    font-family: 'Pacifico', cursive;
+    font-family: 'Acme', sans-serif;
+    font-size: 115%;
+    background: url(back1.png) no-repeat center center fixed;
+    background-size: cover;
+}
+
+/*main Div for the logo and nav bar*/
+
+#mainDiv {
+    max-width: 1200px;
+    margin: -1% auto;
+    margin-right: 20%;
+}
+
+/**/
+
+#bodyDiv {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/*logo image css*/
+
+#logomain {
+    margin-left: -30%
+}
+
+/*nav bar css*/
+
+.snip1189 {
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.snip1189 * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+}
+
+.snip1189 li {
+    display: inline-block;
+    list-style: outside none none;
+    margin: 25px 1em;
+    padding: 0;
+}
+
+.snip1189 a {
+    padding: 0.5em 0.8em;
+    margin: 0.2em 0;
+    display: block;
+    position: relative;
+    color: black;
+    font-size: 128%;
+    text-decoration: none;
+}
+
+.snip1189 a:before, .snip1189 a:after {
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    content: '';
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+    opacity: 0;
+}
+
+.snip1189 a:before {
+    left: 0;
+    top: 0;
+    border-left: 3px solid grey;
+    border-top: 3px solid grey;
+    -webkit-transform: translate(100%, 50%);
+    transform: translate(100%, 50%);
+}
+
+.snip1189 a:after {
+    right: 0;
+    bottom: 0;
+    border-right: 3px solid grey;
+    border-bottom: 3px solid gray;
+    -webkit-transform: translate(-100%, -50%);
+    transform: translate(-100%, -50%);
+}
+
+.snip1189 a:hover, .snip1189 .current a {
+    color: #ffffff;
+}
+
+.snip1189 a:hover:before, .snip1189 .current a:before, .snip1189 a:hover:after, .snip1189 .current a:after {
+    -webkit-transform: translate(0%, 0%);
+    transform: translate(0%, 0%);
+    opacity: 1;
+}
+
+#SectionDiv ul {
+    list-style-type: disc;
+}
+
+
+/* Form Css */
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
+* {
+    box-sizing: border-box;
+    text-rendering: optimizeLegibility;
+}
+
+.container {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact button[type="submit"] {
+    font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+}
+
+#contact {
+    background: #F9F9F9;
+    padding: 25px;
+    margin: 150px 0;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#contact h3 {
+    display: block;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+#contact h4 {
+    margin: 5px 0 15px;
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+fieldset {
+    border: medium none !important;
+    margin: 0 0 10px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    background: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+}
+
+#contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact input[type="url"]:hover, #contact textarea:hover {
+    transition: border-color 0.3s ease-in-out;
+    border: 1px solid #aaa;
+}
+
+#contact textarea {
+    height: 100px;
+    max-width: 100%;
+    resize: none;
+}
+
+#contact button[type="submit"] {
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    background: gray;
+    color: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+#contact button[type="submit"]:hover {
+    transition: background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active {
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+#contact input:focus, #contact textarea:focus {
+    outline: 0;
+    border: 1px solid #aaa;
+}
+
+::-webkit-input-placeholder {
+    color: #888;
+}
+
+:-moz-placeholder {
+    color: #888;
+}
+
+::-moz-placeholder {
+    color: #888;
+}
+
+:-ms-input-placeholder {
+    color: #888;
+}
+
+/* 3 div section and branch and media*/
+
+#parent {
+    display: flex;
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#SectionDiv {
+    width: 155px;
+}
+
+#SectionDiv ul{
+    list-style-type: none;
+    
+}
+
+#SectionDiv a{
+    color: black;
+    line-height: 25px;
+    text-align: center;
+    text-decoration: none;
+}
+/*first branch*/
+
+#branchDiv {
+    flex: 1;
+}
+#branchDiv li{
+    list-style-type:none;
+}
+
+#branchDiv a {
+    color: black;
+    line-height: 25px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/*SEcond branch*/
+
+#branchDiv2 {
+    flex: 2;
+    margin-top: 48px;
+}
+#branchDiv2 li{
+    list-style-type:none;
+}
+#branchDiv2 a {
+    color: black;
+    line-height: 25px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#mediaDiv {
+    flex: 1;
+    margin-top: 49px;
+}
+
+#mediaDiv img {
+    height: 40px;
+    width: 40px;
+}
+
+#mediaDiv li {
+    float: left;
+    list-style: none;
+    padding: 2%;
+    margin: 1%;
+}
+
+/*copyright*/
+
+#copyright {
+    text-decoration: none;
+    color: black;
+    list-style: none;
+}
+
+@media screen and (max-width: 700px) {
+img {
+    display: none;
+}
+#mediaDiv {
+    display :none;
+}
+
+.snip1189 {
+    height : 100px;
+    width :100%; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#home {
+    padding :0px;
+}
+
+#products {
+    padding :0px;
+}
+
+#aboutus {
+    padding :0px;
+}
+
+#contact {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+lable {
+    text-decoration: underline;
+}
+
+#SectionDiv {
+    font-size:18px;
+}
+
+#branchDiv {
+    font-size:18px;
+}
+
+#branchDiv2 {
+    font-size:18px;
+}
